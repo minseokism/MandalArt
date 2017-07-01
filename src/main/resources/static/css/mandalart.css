@@ -1,0 +1,51 @@
+.mandalart-cover {
+	display: inline;
+}
+
+.mandalart-row {
+	margin-bottom: 3px;
+}
+
+.manda-goal {
+  	background-color: #ba2124;
+  	color: white;
+}
+
+.manda-plan {
+  	background-color: #cbc9b2;
+  	color: black;
+}
+
+.table-manda {
+    border-collapse: collapse;
+    border: 2px solid;
+    background: #fff;
+  	table-layout: fixed;
+    word-wrap: break-word;
+    word-break:break-all;
+	width: 210px;
+	height: 210px;
+	font-size: 12px;
+	display: inline-table;
+}
+
+td, th {
+	padding: 0.3em;
+	border: 1px solid;
+    word-wrap: break-word;
+    word-break:break-all;
+}
+
+
+.table-hover-manda > tbody > tr> td:hover {
+  background-color: #c0c0c0;
+}
+
+.table-hover-manda > tbody > tr> .manda-goal:hover {
+  background-color: #fcf503;
+  color: black;
+}
+
+.table-hover-manda > tbody > tr> .manda-plan:hover {
+  background-color: #808080;
+}
